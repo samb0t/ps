@@ -1,6 +1,6 @@
 ﻿
 # Load posh-git example profile
-. '~\AppData\Local\GitHub\PoshGit_869d4c5159797755bc04749db47b166136e59132\profile.example.ps1'
+. '~\Documents\WindowsPowerShell\Modules\posh-git\profile.example.ps1'
 
 $ProfileRoot = (Split-Path -Parent $MyInvocation.MyCommand.Path)
 $env:path += ";$ProfileRoot"
